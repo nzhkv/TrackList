@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		2EDB28EA29D307D9002EFEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB28E929D307D9002EFEE7 /* AppDelegate.swift */; };
 		2EDB28EC29D307D9002EFEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB28EB29D307D9002EFEE7 /* SceneDelegate.swift */; };
-		2EDB28EE29D307D9002EFEE7 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB28ED29D307D9002EFEE7 /* TrackViewController.swift */; };
 		2EDB28F129D307D9002EFEE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDB28EF29D307D9002EFEE7 /* Main.storyboard */; };
 		2EDB28F329D307DA002EFEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EDB28F229D307DA002EFEE7 /* Assets.xcassets */; };
 		2EDB28F629D307DA002EFEE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EDB28F429D307DA002EFEE7 /* LaunchScreen.storyboard */; };
+		2EDB28FE29D3165E002EFEE7 /* TrackListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB28FD29D3165E002EFEE7 /* TrackListTableViewController.swift */; };
+		2EDB290029D31845002EFEE7 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB28FF29D31845002EFEE7 /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2EDB28E629D307D9002EFEE7 /* TrackList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDB28E929D307D9002EFEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EDB28EB29D307D9002EFEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EDB28ED29D307D9002EFEE7 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		2EDB28F029D307D9002EFEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EDB28F229D307DA002EFEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EDB28F529D307DA002EFEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EDB28F729D307DA002EFEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EDB28FD29D3165E002EFEE7 /* TrackListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListTableViewController.swift; sourceTree = "<group>"; };
+		2EDB28FF29D31845002EFEE7 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				2EDB28E929D307D9002EFEE7 /* AppDelegate.swift */,
 				2EDB28EB29D307D9002EFEE7 /* SceneDelegate.swift */,
-				2EDB28ED29D307D9002EFEE7 /* TrackViewController.swift */,
+				2EDB28FD29D3165E002EFEE7 /* TrackListTableViewController.swift */,
+				2EDB28FF29D31845002EFEE7 /* Track.swift */,
 				2EDB28EF29D307D9002EFEE7 /* Main.storyboard */,
 				2EDB28F229D307DA002EFEE7 /* Assets.xcassets */,
 				2EDB28F429D307DA002EFEE7 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EDB28EE29D307D9002EFEE7 /* TrackViewController.swift in Sources */,
 				2EDB28EA29D307D9002EFEE7 /* AppDelegate.swift in Sources */,
 				2EDB28EC29D307D9002EFEE7 /* SceneDelegate.swift in Sources */,
+				2EDB28FE29D3165E002EFEE7 /* TrackListTableViewController.swift in Sources */,
+				2EDB290029D31845002EFEE7 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
